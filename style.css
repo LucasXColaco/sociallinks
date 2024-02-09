@@ -1,0 +1,30 @@
+@font-face
+
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: var(--OffBlack);
+}
+
+main{
+    background-color: var(--DarkGrey);
+}
+
+h1{
+    color: white;
+}
+
+.verde{
+    color: var(--Green);
+}
+
+p{
+    color: white;
+    font-weight: 400;
+}
